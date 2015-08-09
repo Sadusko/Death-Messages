@@ -34,6 +34,7 @@ namespace DeathMessages
 
             else
             {
+
                 Logger.LogError("Suicide messages are disabled!");
             }
 
