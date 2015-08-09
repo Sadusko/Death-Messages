@@ -14,7 +14,7 @@ using Rocket.Core.Logging;
 using Rocket.Unturned.Chat;
 
 //Yeha, we are on GitHub
-namespace DeathMessages
+namespace Sadusko.DeathMessages
 {
     public class PlayerDeath : RocketPlugin<DMC>
     {

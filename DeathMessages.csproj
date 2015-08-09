@@ -7,7 +7,7 @@
     <ProjectGuid>{5D8E331C-D36D-4A17-8E4A-C54EE5266375}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DeathMessages</RootNamespace>
+    <RootNamespace>Sadusko.DeathMessages</RootNamespace>
     <AssemblyName>DeathMessages</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
