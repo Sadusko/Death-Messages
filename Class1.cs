@@ -13,6 +13,7 @@ using Rocket.Core.Plugins;
 using Rocket.Core.Logging;
 using Rocket.Unturned.Chat;
 
+//Yeha, we are on GitHub
 namespace DeathMessages
 {
     public class PlayerDeath : RocketPlugin<DMC>
@@ -34,7 +35,6 @@ namespace DeathMessages
 
             else
             {
-
                 Logger.LogError("Suicide messages are disabled!");
             }
 
