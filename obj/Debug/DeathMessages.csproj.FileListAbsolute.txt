@@ -1,0 +1,38 @@
+c:\users\delano\documents\visual studio 2012\Projects\DeathMessages\bin\Debug\DeathMessages.dll
+c:\users\delano\documents\visual studio 2012\Projects\DeathMessages\bin\Debug\DeathMessages.pdb
+c:\users\delano\documents\visual studio 2012\Projects\DeathMessages\bin\Debug\Assembly-CSharp-firstpass.dll
+c:\users\delano\documents\visual studio 2012\Projects\DeathMessages\bin\Debug\Assembly-CSharp.dll
+c:\users\delano\documents\visual studio 2012\Projects\DeathMessages\bin\Debug\Rocket.API.dll
+c:\users\delano\documents\visual studio 2012\Projects\DeathMessages\bin\Debug\Rocket.Core.dll
+c:\users\delano\documents\visual studio 2012\Projects\DeathMessages\bin\Debug\Rocket.Unturned.dll
+c:\users\delano\documents\visual studio 2012\Projects\DeathMessages\bin\Debug\UnityEngine.dll
+c:\users\delano\documents\visual studio 2012\Projects\DeathMessages\bin\Debug\Assembly-UnityScript-firstpass.dll
+c:\users\delano\documents\visual studio 2012\Projects\DeathMessages\bin\Debug\Pathfinding.JsonFx.dll
+c:\users\delano\documents\visual studio 2012\Projects\DeathMessages\bin\Debug\Pathfinding.Ionic.Zip.Reduced.dll
+c:\users\delano\documents\visual studio 2012\Projects\DeathMessages\bin\Debug\Pathfinding.ClipperLib.dll
+c:\users\delano\documents\visual studio 2012\Projects\DeathMessages\bin\Debug\Pathfinding.Poly2Tri.dll
+c:\users\delano\documents\visual studio 2012\Projects\DeathMessages\bin\Debug\Boo.Lang.dll
+c:\users\delano\documents\visual studio 2012\Projects\DeathMessages\bin\Debug\UnityScript.Lang.dll
+c:\users\delano\documents\visual studio 2012\Projects\DeathMessages\obj\Debug\DeathMessages.csprojResolveAssemblyReference.cache
+c:\users\delano\documents\visual studio 2012\Projects\DeathMessages\obj\Debug\DeathMessages.dll
+c:\users\delano\documents\visual studio 2012\Projects\DeathMessages\obj\Debug\DeathMessages.pdb
+C:\Users\Delano\Documents\Visual Studio 2012\Projects\DeathMessages\bin\Debug\UnityEngine.xml
+C:\Users\Eigenaar\Desktop\DeathMessages-master\bin\Debug\DeathMessages.dll
+C:\Users\Eigenaar\Desktop\DeathMessages-master\bin\Debug\DeathMessages.pdb
+C:\Users\Eigenaar\Desktop\DeathMessages-master\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\Eigenaar\Desktop\DeathMessages-master\bin\Debug\Assembly-CSharp.dll
+C:\Users\Eigenaar\Desktop\DeathMessages-master\bin\Debug\Assembly-UnityScript-firstpass.dll
+C:\Users\Eigenaar\Desktop\DeathMessages-master\bin\Debug\Rocket.API.dll
+C:\Users\Eigenaar\Desktop\DeathMessages-master\bin\Debug\Rocket.Core.dll
+C:\Users\Eigenaar\Desktop\DeathMessages-master\bin\Debug\Rocket.Unturned.dll
+C:\Users\Eigenaar\Desktop\DeathMessages-master\bin\Debug\UnityEngine.dll
+C:\Users\Eigenaar\Desktop\DeathMessages-master\bin\Debug\Pathfinding.JsonFx.dll
+C:\Users\Eigenaar\Desktop\DeathMessages-master\bin\Debug\Pathfinding.Ionic.Zip.Reduced.dll
+C:\Users\Eigenaar\Desktop\DeathMessages-master\bin\Debug\Pathfinding.ClipperLib.dll
+C:\Users\Eigenaar\Desktop\DeathMessages-master\bin\Debug\Pathfinding.Poly2Tri.dll
+C:\Users\Eigenaar\Desktop\DeathMessages-master\bin\Debug\Boo.Lang.dll
+C:\Users\Eigenaar\Desktop\DeathMessages-master\bin\Debug\UnityScript.Lang.dll
+C:\Users\Eigenaar\Desktop\DeathMessages-master\bin\Debug\UnityEngine.xml
+C:\Users\Eigenaar\Desktop\DeathMessages-master\obj\Debug\DeathMessages.csprojResolveAssemblyReference.cache
+C:\Users\Eigenaar\Desktop\DeathMessages-master\obj\Debug\DeathMessages.dll
+C:\Users\Eigenaar\Desktop\DeathMessages-master\obj\Debug\DeathMessages.pdb
