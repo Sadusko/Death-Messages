@@ -2,7 +2,7 @@
 
 namespace DeathMessages
 {
-    public class DMC : IRocketPluginConfiguration
+    public class DMCconf : IRocketPluginConfiguration
     {
         public bool suicidemsg;
         public bool warningmsg;

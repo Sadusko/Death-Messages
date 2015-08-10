@@ -110,6 +110,7 @@ namespace Sadusko.DeathMessages
                     UnturnedChat.Say(player, this.Configuration.Instance.warning2, Color.yellow);
                 }
             }
+    
         }
     }
 
