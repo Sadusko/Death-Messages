@@ -1,6 +1,6 @@
 ﻿using Rocket.API;
 
-namespace DeathMessages
+namespace Sadusko.DeathMessages
 {
     public class DMCconf : IRocketPluginConfiguration
     {
