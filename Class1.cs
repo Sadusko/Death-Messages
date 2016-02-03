@@ -97,7 +97,8 @@ namespace Sadusko.DeathMessages
         }
         protected override void Unload()
         {
-            base.Unload();
+            Rocket.Unturned.Events.UnturnedPlayerEvents.OnPlayerDeath -= UnturnedPlayerEvents_OnPlayerDeath;
+            Rocket.Unturned.Events.UnturnedPlayerEvents.OnPlayerUpdateHealth -= UnturnedPlayerEvents_OnPlayerUpdateHealth;
         }
 
         void UnturnedPlayerEvents_OnPlayerUpdateHealth(Rocket.Unturned.Player.UnturnedPlayer player, byte health)
