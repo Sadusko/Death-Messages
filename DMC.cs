@@ -1,8 +1,8 @@
-﻿using Rocket.API;
+using Rocket.API;
 
 namespace DeathMessages
 {
-    public class DMCconf : IRocketPluginConfiguration
+    public class DMC2 : IRocketPluginConfiguration
     {
         public bool suicidemsg;
         public bool warningmsg;
@@ -21,6 +21,8 @@ namespace DeathMessages
         public string infection;
         public string bleeding;
         public string suicide;
+        public string landmine;
+        public string breath;
 
         public void LoadDefaults()
         {
@@ -42,6 +44,8 @@ namespace DeathMessages
                     infection = "has become a zombie himself!";
                     bleeding = "has bled to death!";
                     suicide = "has killed himself!";
+                    landmine = "has been blown up by a landmine!";
+                    breath = "died of holding his breath for too long!";
 
         }
     }
