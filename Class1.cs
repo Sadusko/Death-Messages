@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,11 +12,14 @@ using SDG;
 using Rocket.Core.Plugins;
 using Rocket.Core.Logging;
 using Rocket.Unturned.Chat;
+using Rocket.Unturned.Events;
+using DeathMessages;
+using Steamworks;
 
 //Yeha, we are on GitHub
 namespace Sadusko.DeathMessages
 {
-    public class PlayerDeath : RocketPlugin<DMC>
+    public class PlayerDeath : RocketPlugin<DMC2>
     {
         public static PlayerDeath Instance;
         protected override void Load()
@@ -26,26 +29,19 @@ namespace Sadusko.DeathMessages
             #region Event
             Rocket.Unturned.Events.UnturnedPlayerEvents.OnPlayerDeath += UnturnedPlayerEvents_OnPlayerDeath;
             Rocket.Unturned.Events.UnturnedPlayerEvents.OnPlayerUpdateHealth += UnturnedPlayerEvents_OnPlayerUpdateHealth;
+            
             #endregion
+            Logger.LogError("NOTE:");
+            Logger.LogError("Don't forget to set the permission 'deathmessage' in one of the groups.");
 
-            if (this.Configuration.Instance.suicidemsg)
-            {
-                Logger.LogError("Suicide messages are enabled!");
-            }
-
-            else
-            {
-                Logger.LogError("Suicide messages are disabled!");
-            }
-
-            if (this.Configuration.Instance.warningmsg)
-            {
-                Logger.LogError("Health warning messages are enabled!");
-            }
+            
         }
+
+
 
         private void UnturnedPlayerEvents_OnPlayerDeath(Rocket.Unturned.Player.UnturnedPlayer player, SDG.Unturned.EDeathCause cause, SDG.Unturned.ELimb limb, Steamworks.CSteamID murderer)
         {
+            
             if (player.HasPermission("deathmessage"))
             {
                 if (cause.ToString() == "ZOMBIE")
@@ -88,11 +84,20 @@ namespace Sadusko.DeathMessages
                 {
                     UnturnedChat.Say(player.CharacterName + " " + this.Configuration.Instance.bleeding, Color.red);
                 }
+                else if (cause.ToString() == "LANDMINE") 
+                {
+                    UnturnedChat.Say(player.CharacterName + " " + this.Configuration.Instance.landmine, Color.red);
+                }
+                else if (cause.ToString() == "BREATH") 
+                {
+                    UnturnedChat.Say(player.CharacterName + " " + this.Configuration.Instance.breath, Color.red);
+                }
+                
                 else if (cause.ToString() == "SUICIDE" && this.Configuration.Instance.suicidemsg)
                 {
                     UnturnedChat.Say(player.CharacterName + " " + this.Configuration.Instance.suicide, Color.red);
-
                 }
+                
             }
         }
         protected override void Unload()
@@ -111,6 +116,8 @@ namespace Sadusko.DeathMessages
                     UnturnedChat.Say(player, this.Configuration.Instance.warning2, Color.yellow);
                 }
             }
+           
+            
     
         }
     }
