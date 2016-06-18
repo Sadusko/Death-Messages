@@ -36,3 +36,8 @@ C:\Users\Eigenaar\Desktop\DeathMessages-master\bin\Debug\UnityEngine.xml
 C:\Users\Eigenaar\Desktop\DeathMessages-master\obj\Debug\DeathMessages.csprojResolveAssemblyReference.cache
 C:\Users\Eigenaar\Desktop\DeathMessages-master\obj\Debug\DeathMessages.dll
 C:\Users\Eigenaar\Desktop\DeathMessages-master\obj\Debug\DeathMessages.pdb
+D:\Files from Old Windows Installs\laptop files\documents\GitHub\Death-Messages\bin\Debug\DeathMessages.dll
+D:\Files from Old Windows Installs\laptop files\documents\GitHub\Death-Messages\bin\Debug\DeathMessages.pdb
+D:\Files from Old Windows Installs\laptop files\documents\GitHub\Death-Messages\obj\Debug\DeathMessages.csprojResolveAssemblyReference.cache
+D:\Files from Old Windows Installs\laptop files\documents\GitHub\Death-Messages\obj\Debug\DeathMessages.dll
+D:\Files from Old Windows Installs\laptop files\documents\GitHub\Death-Messages\obj\Debug\DeathMessages.pdb
